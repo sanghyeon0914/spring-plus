@@ -32,6 +32,7 @@ public class TodoService {
 
         Todo newTodo = new Todo(
                 todoSaveRequest.getTitle(),
+                todoSaveRequest.getNickname(),
                 todoSaveRequest.getContents(),
                 weather,
                 user
